@@ -1,1 +1,1 @@
-web: nodemon index.js && nodemon frontend/src/index.js wait -n
+web: nodemon frontend/src/index.js wait -n
