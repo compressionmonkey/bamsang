@@ -14,7 +14,7 @@ app.get('/', (request, response) => {
         console.log(data.toString())
     })
     
-    // response.send({id:1,name:"KDD"})
+    response.send({id:1,name:"KDD"})
 })
 
 app.listen(port, console.log(`server started at ${port} .....`))
